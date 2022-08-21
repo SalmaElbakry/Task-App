@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.42">
+<file name="D:\e2e-java-experience-in-app-service-linux-part-2\initial\spring-todo-app\src\main\java\com\azure\spring\samples\controller\TodoListController.java">
+</file>
+<file name="D:\e2e-java-experience-in-app-service-linux-part-2\initial\spring-todo-app\src\main\java\com\azure\spring\samples\dao\TodoItemRepository.java">
+</file>
+<file name="D:\e2e-java-experience-in-app-service-linux-part-2\initial\spring-todo-app\src\main\java\com\azure\spring\samples\model\TodoItem.java">
+</file>
+<file name="D:\e2e-java-experience-in-app-service-linux-part-2\initial\spring-todo-app\src\main\java\com\azure\spring\samples\TodoApplication.java">
+</file>
+<file name="D:\e2e-java-experience-in-app-service-linux-part-2\initial\spring-todo-app\src\test\java\com\azure\spring\samples\model\TodoItemTest.java">
+</file>
+<file name="D:\e2e-java-experience-in-app-service-linux-part-2\initial\spring-todo-app\src\main\resources\application.properties">
+</file>
+</checkstyle>
