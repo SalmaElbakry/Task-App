@@ -48,6 +48,19 @@ public class TodoListController {
     /**
      * HTTP GET
      */
+    @RequestMapping(value = "/api/hello",
+        method = RequestMethod.GET, produces = {MediaType.APPLICATION_JSON_VALUE})
+    public ResponseEntity<?> getTodoItem() {
+        try {
+            return new ResponseEntity<String>("Hello World!", HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<String>(" not found", HttpStatus.NOT_FOUND);
+        }
+    }
+
+    /**
+     * HTTP GET
+     */
     @RequestMapping(value = "/api/todolist/{index}",
         method = RequestMethod.GET, produces = {MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<?> getTodoItem(@PathVariable("index") String index) {
